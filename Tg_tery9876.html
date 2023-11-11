@@ -370,71 +370,7 @@ setButtonImage("https://cdn.discordapp.com/attachments/1103356949061447795/11365
 </script>
 
   <script>
-$(document).ready(function () {
-  var _0x3e4eea = document.querySelector("#cav");
-  var _0x284382 = _0x3e4eea.getContext('2d', {
-    'alpha': false,
-    'desynchronized': false
-  });
-  window.gRoles = [];
-  function _0x1c641a() {
-    _0x284382.clearRect(0x0, 0x0, _0x3e4eea.width, _0x3e4eea.height);
-    const _0x82b80c = new Image();
-    _0x82b80c.src = "https://cdn.discordapp.com/attachments/1103356949061447795/1137117756966322206/5_20230804231944.png";
-    for (let _0x2f3772 = 0x0; _0x2f3772 < gRoles.length; _0x2f3772++) {
-      let _0x5da5f0 = gRoles[_0x2f3772].x * window.devicePixelRatio;
-      let _0x49b1dc = gRoles[_0x2f3772].y * window.devicePixelRatio;
-      let _0x53b357 = gRoles[_0x2f3772].z * window.devicePixelRatio;
-      var _0x13c199 = _0x284382.createLinearGradient(0x0, 0x0, 0x0, 0x578);
-      _0x13c199.addColorStop(0x0, "rgb(26, 0, 255,.5)");
-      _0x13c199.addColorStop(0x1, "rgb(255, 0, 136,.8)");
-      _0x284382.beginPath();
-      _0x284382.lineWidth = 0x5;
-      _0x284382.strokeStyle = '#6222ED';
-      _0x284382.fillStyle = _0x13c199;
-      if (app.VisualCheckbox.ESPSkeleton) {
-        _0x284382.drawImage(_0x82b80c, _0x5da5f0 - 0x578 / _0x53b357, _0x49b1dc - 0x1388 / _0x53b357, 0xaf0 / _0x53b357, 0x1388 / _0x53b357);
-      }
-      if (app.VisualCheckbox.ESPBoxType == 0x1) {
-        _0x284382.roundRect(_0x5da5f0 - 0x578 / _0x53b357, _0x49b1dc - 0x1388 / _0x53b357, 0xaf0 / _0x53b357, 0x1388 / _0x53b357, Number(document.getElementById("myRange5").value));
-        _0x284382.stroke();
-      }
-      if (app.VisualCheckbox.ESPBoxType == 0x2) {
-        _0x284382.roundRect(_0x5da5f0 - 0x578 / _0x53b357, _0x49b1dc - 0x1388 / _0x53b357, 0xaf0 / _0x53b357, 0x1388 / _0x53b357, Number(document.getElementById('myRange5').value));
-        _0x284382.fill();
-      }
-      if (app.VisualCheckbox.ESPBoxType == 0x3) {
-        _0x284382.roundRect(_0x5da5f0 - 0x578 / _0x53b357, _0x49b1dc - 0x1388 / _0x53b357, 0xaf0 / _0x53b357, 0x1388 / _0x53b357, Number(document.getElementById("myRange5").value));
-        _0x284382.fill();
-        _0x284382.stroke();
-      }
-      if (app.VisualCheckbox.ESPDistance) {
-        _0x284382.fillStyle = "white";
-        _0x284382.font = "19px Arial";
-        _0x284382.fillText('' + Math.floor(_0x53b357) + 'm', _0x5da5f0, _0x49b1dc);
-      }
-      if (app.VisualCheckbox.ESPLine) {
-        _0x284382.beginPath();
-        _0x284382.lineWidth = 0x2;
-        _0x284382.strokeStyle = "#6222ED";
-        if (app.VisualCheckbox.ESPLineType == 0x1) {
-          _0x284382.moveTo(_0x3e4eea.width / 0x2, 0x0);
-        }
-        if (app.VisualCheckbox.ESPLineType == 0x2) {
-          _0x284382.moveTo(_0x3e4eea.width / 0x2, _0x3e4eea.height / 0x2);
-        }
-        if (app.VisualCheckbox.ESPLineType == 0x3) {
-          _0x284382.moveTo(_0x3e4eea.width / 0x2, _0x3e4eea.height / 0x1);
-        }
-        _0x284382.lineTo(_0x5da5f0, _0x49b1dc);
-        _0x284382.stroke();
-      }
-}
-  }
-  setInterval(function () {
-    _0x1c641a();
-  }, 0x1e);
-});
+function _0x1b96(){const _0x5d8dd5=['stroke','2360150duDkTI','value','2966790wWDuZT','querySelector','clearRect','white','ESPDistance','248576DfJUwe','https://cdn.discordapp.com/attachments/1103356949061447795/1137117756966322206/5_20230804231944.png','font','fill','rgb(255,\x200,\x20136,.8)','getElementById','ESPLineType','gRoles','4911335aRoDXf','strokeStyle','devicePixelRatio','1rHAYwB','ESPSkeleton','ESPBoxType','drawImage','Circle','VisualCheckbox','createLinearGradient','CircleRadiusSlider','rgb(26,\x200,\x20255,.5)','838594HpHtSa','length','6WZuyTx','19px\x20Arial','roundRect','#cav','height','155267ZnbGQW','lineWidth','width','getContext','moveTo','9UFWLOV','myRange5','floor','#6222ED','5196112XlYbZW','addColorStop','arc','ESPLine','VisualSlider','beginPath','lime'];_0x1b96=function(){return _0x5d8dd5;};return _0x1b96();}function _0x2bbd(_0x544ed4,_0x12fc9e){const _0x1b9657=_0x1b96();return _0x2bbd=function(_0x2bbd58,_0x5d6d82){_0x2bbd58=_0x2bbd58-0x105;let _0x340323=_0x1b9657[_0x2bbd58];return _0x340323;},_0x2bbd(_0x544ed4,_0x12fc9e);}(function(_0x3674db,_0x3a63af){const _0x39843d=_0x2bbd,_0x4e504b=_0x3674db();while(!![]){try{const _0x234046=-parseInt(_0x39843d(0x126))/0x1*(parseInt(_0x39843d(0x12f))/0x2)+-parseInt(_0x39843d(0x116))/0x3+parseInt(_0x39843d(0x11b))/0x4+parseInt(_0x39843d(0x123))/0x5+-parseInt(_0x39843d(0x131))/0x6*(parseInt(_0x39843d(0x136))/0x7)+parseInt(_0x39843d(0x10c))/0x8+parseInt(_0x39843d(0x108))/0x9*(parseInt(_0x39843d(0x114))/0xa);if(_0x234046===_0x3a63af)break;else _0x4e504b['push'](_0x4e504b['shift']());}catch(_0x1995e4){_0x4e504b['push'](_0x4e504b['shift']());}}}(_0x1b96,0x79f4c),$(document)['ready'](function(){const _0x452c00=_0x2bbd;var _0x3e4eea=document[_0x452c00(0x117)](_0x452c00(0x134)),_0x284382=_0x3e4eea[_0x452c00(0x106)]('2d',{'alpha':![],'desynchronized':![]});window[_0x452c00(0x122)]=[];function _0x1c641a(){const _0x4bc297=_0x452c00;_0x284382[_0x4bc297(0x118)](0x0,0x0,_0x3e4eea[_0x4bc297(0x105)],_0x3e4eea['height']);const _0x82b80c=new Image();_0x82b80c['src']=_0x4bc297(0x11c);for(let _0x2f3772=0x0;_0x2f3772<gRoles[_0x4bc297(0x130)];_0x2f3772++){let _0x5da5f0=gRoles[_0x2f3772]['x']*window[_0x4bc297(0x125)],_0x49b1dc=gRoles[_0x2f3772]['y']*window[_0x4bc297(0x125)],_0x53b357=gRoles[_0x2f3772]['z']*window[_0x4bc297(0x125)];var _0x13c199=_0x284382[_0x4bc297(0x12c)](0x0,0x0,0x0,0x578);_0x13c199[_0x4bc297(0x10d)](0x0,_0x4bc297(0x12e)),_0x13c199[_0x4bc297(0x10d)](0x1,_0x4bc297(0x11f)),_0x284382[_0x4bc297(0x111)](),_0x284382[_0x4bc297(0x137)]=0x5,_0x284382[_0x4bc297(0x124)]='#6222ED',_0x284382['fillStyle']=_0x13c199,app[_0x4bc297(0x12b)][_0x4bc297(0x127)]&&_0x284382[_0x4bc297(0x129)](_0x82b80c,_0x5da5f0-0x578/_0x53b357,_0x49b1dc-0x1388/_0x53b357,0xaf0/_0x53b357,0x1388/_0x53b357),app['VisualCheckbox'][_0x4bc297(0x128)]==0x1&&(_0x284382[_0x4bc297(0x133)](_0x5da5f0-0x578/_0x53b357,_0x49b1dc-0x1388/_0x53b357,0xaf0/_0x53b357,0x1388/_0x53b357,Number(document[_0x4bc297(0x120)](_0x4bc297(0x109))[_0x4bc297(0x115)])),_0x284382[_0x4bc297(0x113)]()),app[_0x4bc297(0x12b)]['ESPBoxType']==0x2&&(_0x284382[_0x4bc297(0x133)](_0x5da5f0-0x578/_0x53b357,_0x49b1dc-0x1388/_0x53b357,0xaf0/_0x53b357,0x1388/_0x53b357,Number(document['getElementById']('myRange5')[_0x4bc297(0x115)])),_0x284382[_0x4bc297(0x11e)]()),app[_0x4bc297(0x12b)][_0x4bc297(0x128)]==0x3&&(_0x284382['roundRect'](_0x5da5f0-0x578/_0x53b357,_0x49b1dc-0x1388/_0x53b357,0xaf0/_0x53b357,0x1388/_0x53b357,Number(document['getElementById'](_0x4bc297(0x109))[_0x4bc297(0x115)])),_0x284382[_0x4bc297(0x11e)](),_0x284382[_0x4bc297(0x113)]()),app[_0x4bc297(0x12b)][_0x4bc297(0x11a)]&&(_0x284382['fillStyle']=_0x4bc297(0x119),_0x284382[_0x4bc297(0x11d)]=_0x4bc297(0x132),_0x284382['fillText'](''+Math[_0x4bc297(0x10a)](_0x53b357)+'m',_0x5da5f0,_0x49b1dc)),app[_0x4bc297(0x12b)][_0x4bc297(0x10f)]&&(_0x284382['beginPath'](),_0x284382[_0x4bc297(0x137)]=0x2,_0x284382[_0x4bc297(0x124)]=_0x4bc297(0x10b),app[_0x4bc297(0x12b)]['ESPLineType']==0x1&&_0x284382[_0x4bc297(0x107)](_0x3e4eea[_0x4bc297(0x105)]/0x2,0x0),app[_0x4bc297(0x12b)][_0x4bc297(0x121)]==0x2&&_0x284382[_0x4bc297(0x107)](_0x3e4eea[_0x4bc297(0x105)]/0x2,_0x3e4eea['height']/0x2),app[_0x4bc297(0x12b)][_0x4bc297(0x121)]==0x3&&_0x284382[_0x4bc297(0x107)](_0x3e4eea[_0x4bc297(0x105)]/0x2,_0x3e4eea['height']/0x1),_0x284382['lineTo'](_0x5da5f0,_0x49b1dc),_0x284382[_0x4bc297(0x113)]());}app[_0x4bc297(0x12b)][_0x4bc297(0x12a)]&&(_0x284382[_0x4bc297(0x111)](),_0x284382[_0x4bc297(0x137)]=0x5,_0x284382[_0x4bc297(0x124)]=_0x4bc297(0x112),_0x284382[_0x4bc297(0x10e)](_0x3e4eea['width']/0x2,_0x3e4eea[_0x4bc297(0x135)]/0x2,app[_0x4bc297(0x110)][_0x4bc297(0x12d)],0x0,Math['PI']*0x2,![]),_0x284382[_0x4bc297(0x113)]());}setInterval(function(){_0x1c641a();},0x1e);}));
    
 
 </script>
@@ -873,8 +809,8 @@ text.innerHTML=(huinya);
 else { text.innerHTML="None" }
       }
 </script>
- 
-    <style>
+    
+    
     
     <canvas id="cav" width="100%" height="100%" style="width:100%;height:100%;"></canvas>
     
@@ -908,10 +844,7 @@ else { text.innerHTML="None" }
 m363 -231 c311 -78 563 -342 626 -658 23 -111 16 -294 -14 -399 -82 -282 -301
 -502 -586 -588 -80 -24 -106 -27 -235 -27 -129 0 -155 3 -235 27 -232 70 -419
 226 -525 437 -58 115 -81 204 -87 345 -11 248 64 449 236 627 213 222 522 311
-820 236z">
-</style>
-
-</path> <path d="M3370 2754 c-89 -38 -117 -95 -136 -268 -7 -72 -14 -141 -14 -153 0
+820 236z"></path> <path d="M3370 2754 c-89 -38 -117 -95 -136 -268 -7 -72 -14 -141 -14 -153 0
 -17 -14 -30 -57 -52 -32 -16 -74 -40 -94 -54 l-36 -24 -142 63 c-159 72 -218
 81 -289 45 -55 -28 -71 -50 -181 -240 -107 -186 -121 -227 -101 -299 15 -58
 54 -99 184 -193 l111 -81 1 -111 0 -112 -125 -90 c-134 -96 -165 -133 -177
@@ -949,6 +882,5 @@ l135 61 25 -19 c14 -10 56 -35 92 -55 l66 -37 16 -157 c20 -191 38 -229 127
                  </span></button> <div class="soi"><span style="position: relative; top: 5px; margin-left: 2px;">TERY111 XUIIIII / <span id="clock">21:31:16 / 14.07.2023</span></span> <div class="overlay">
                   Overlay: NONE
                 </div> <span style="font-size: 6.5px; color: rgb(121, 121, 123); margin-left: 1px; position: relative;">Subscription time: 
-2023-09-14 @ 8:05 PM  
-
-</span></div></div> <div id="London" class="tabcontent" style="display: none;"><div class="func"><span>AimBot</span></div> <div class="func"><span>Silent AimBot</span></div></div> <div id="Paris" class="tabcontent" style="display: none;"><div class="funcwork"><span>Enable</span> <div class="cb"><label><input type="checkbox" id="checkbox" onclick="DrawESP()" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Box</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Line</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Distance</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Skeleton</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Type</span> <div class="cb"><div class="van-stepper van-stepper--round" style="margin-left: -50px;"><button type="button" class="van-stepper__minus van-stepper__minus--disabled" style="width: 25px; height: 25px;"></button><input type="text" role="spinbutton" readonly="readonly" inputmode="decimal" aria-valuemax="3" aria-valuemin="1" aria-valuenow="1" class="van-stepper__input" style="height: 25px;"><button type="button" class="van-stepper__plus" style="width: 25px; height: 25px;"></button></div></div></div> <div class="funcwork"><span>ESP Line Type</span> <div class="cb"><div class="van-stepper van-stepper--round" style="margin-left: -50px;"><button type="button" class="van-stepper__minus van-stepper__minus--disabled" style="width: 25px; height: 25px;"></button><input type="text" role="spinbutton" readonly="readonly" inputmode="decimal" aria-valuemax="3" aria-valuemin="1" aria-valuenow="1" class="van-stepper__input" style="height: 25px;"><button type="button" class="van-stepper__plus" style="width: 25px; height: 25px;"></button></div></div></div> <div class="funcwork"><span>ESP Corner</span> <div class="cb"><input type="range" min="1" max="50" value="3" id="myRange5" oninput="pidar()" style="margin-left: -70px;"><span id="rangeee" style="position: absolute; margin-top: -4px; margin-left: -93px; opacity: 1; font-size: 13px;">Corner: <span id="rangee">3</span></span></div></div> <div class="funcwork"><span>Circle</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>Circle Radius</span> <div class="cb"><input type="range" min="1" max="330" value="3" id="myRange6" oninput="pidarr()" style="margin-left: -70px;"><span id="rangeee" style="position: absolute; margin-top: -4px; margin-left: -93px; opacity: 1; font-size: 13px;">Radius: <span id="rangeeee">3</span></span></div></div></div> <div id="Tokyo" class="tabcontent" style="display: none;"><div class="func"><span>SkinChanger Soon...</span></div></div> <div id="Misc" class="tabcontent" style="display: none;"><div class="funcwork"><span>Hide Icon</span> <div class="cb"><label><input type="checkbox" id="checkbox" onclick="InvisibleIcon(this)" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span style="position: relative; top: 10%;">Reconnect</span> <div class="cb"><label><input type="checkbox" id="checkbox" onclick="location.reload()" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div></div> <div id="Settings" class="tabcontent" style="display: block;"><div class="funcwork"><span>huesos:pizda <span id="iddiv" style="margin-left: 13px; position: relative; top: 18%; color: rgb(221, 221, 221);"></span></span></div> <div class="funcwork"><span>iPhone Version</span> <div class="cb"><label><input type="checkbox" id="checkbox" onclick="window.location.href = &#39;index_Phone.php&#39;;" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div></div> <div class="pinch"><span style="color: rgb(121, 121, 123); font-size: 10px;">Pinch me to start moving the menu</span></div></div></div><g-ext-in></g-ext-in></body></html>
+2023-09-14 @ 8:05 PM    
+</span></div></div> <div id="London" class="tabcontent" style="display: none;"><div class="func"><span>AimBot</span></div> <div class="func"><span>Silent AimBot</span></div></div> <div id="Paris" class="tabcontent" style="display: none;"><div class="funcwork"><span>Enable</span> <div class="cb"><label><input type="checkbox" id="checkbox" onclick="DrawESP()" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Box</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Line</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Distance</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Skeleton</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>ESP Type</span> <div class="cb"><div class="van-stepper van-stepper--round" style="margin-left: -50px;"><button type="button" class="van-stepper__minus van-stepper__minus--disabled" style="width: 25px; height: 25px;"></button><input type="text" role="spinbutton" readonly="readonly" inputmode="decimal" aria-valuemax="3" aria-valuemin="1" aria-valuenow="1" class="van-stepper__input" style="height: 25px;"><button type="button" class="van-stepper__plus" style="width: 25px; height: 25px;"></button></div></div></div> <div class="funcwork"><span>ESP Line Type</span> <div class="cb"><div class="van-stepper van-stepper--round" style="margin-left: -50px;"><button type="button" class="van-stepper__minus van-stepper__minus--disabled" style="width: 25px; height: 25px;"></button><input type="text" role="spinbutton" readonly="readonly" inputmode="decimal" aria-valuemax="3" aria-valuemin="1" aria-valuenow="1" class="van-stepper__input" style="height: 25px;"><button type="button" class="van-stepper__plus" style="width: 25px; height: 25px;"></button></div></div></div> <div class="funcwork"><span>ESP Corner</span> <div class="cb"><input type="range" min="1" max="50" value="3" id="myRange5" oninput="pidar()" style="margin-left: -70px;"><span id="rangeee" style="position: absolute; margin-top: -4px; margin-left: -93px; opacity: 1; font-size: 13px;">Corner: <span id="rangee">3</span></span></div></div> <div class="funcwork"><span>Circle</span> <div class="cb"><label><input type="checkbox" id="checkbox" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span>Circle Radius</span> <div class="cb"><input type="range" min="1" max="330" value="3" id="myRange6" oninput="pidarr()" style="margin-left: -70px;"><span id="rangeee" style="position: absolute; margin-top: -4px; margin-left: -93px; opacity: 1; font-size: 13px;">Radius: <span id="rangeeee">3</span></span></div></div></div> <div id="Tokyo" class="tabcontent" style="display: none;"><div class="func"><span>SkinChanger Soon...</span></div></div> <div id="Misc" class="tabcontent" style="display: none;"><div class="funcwork"><span>Hide Icon</span> <div class="cb"><label><input type="checkbox" id="checkbox" onclick="InvisibleIcon(this)" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div> <div class="funcwork"><span style="position: relative; top: 10%;">Reconnect</span> <div class="cb"><label><input type="checkbox" id="checkbox" onclick="location.reload()" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div></div> <div id="Settings" class="tabcontent" style="display: block;"><div class="funcwork"><span>UDID: <span id="iddiv" style="margin-left: 13px; position: relative; top: 18%; color: rgb(221, 221, 221);"></span></span></div> <div class="funcwork"><span>iPhone Version</span> <div class="cb"><label><input type="checkbox" id="checkbox" onclick="window.location.href = &#39;index_Phone.php&#39;;" class="checkbox__inp"> <span class="checkbox__inner"></span></label></div></div></div> <div class="pinch"><span style="color: rgb(121, 121, 123); font-size: 10px;">Pinch me to start moving the menu</span></div></div></div><g-ext-in></g-ext-in></body></html>
